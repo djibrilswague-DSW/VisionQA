@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.vscode/
+.ipynb_checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+.DS_Store

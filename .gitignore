@@ -1,12 +1,27 @@
+# Environnement Python
+venv/
+env/
 .venv/
+
+# Cache Python
 __pycache__/
 *.py[cod]
-.env
-.env.*
-.vscode/
-.ipynb_checkpoints/
+
+# Modèles et fichiers lourds
 *.pt
 *.pth
-*.bin
 *.safetensors
+*.bin
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Fichiers système
 .DS_Store
+Thumbs.db
+
+# Variables d'environnement
+.env
+
+# Logs
+*.log
